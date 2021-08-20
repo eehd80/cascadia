@@ -50,5 +50,23 @@
             </div>
             <a href="./index.html" class="link-close"> Close <span class="burger"></span> </a>
         </div>
+
+        <script src="./static/pc/js/jquery-1.12.4.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/gasparesganga-jquery-loading-overlay@2.1.7/dist/loadingoverlay.min.js"></script>
+        <script>
+            // 로딩
+            var customElement = $("<div>", {
+                class: "loading",
+                text: "Loading...",
+            });
+            $.LoadingOverlay("show", {
+                image: "",
+                background: "rgba(0,0,0,0.2)",
+                custom: customElement,
+            });
+            setTimeout(function () {
+                $.LoadingOverlay("hide");
+            }, 3000);
+        </script>
     </body>
 </html>

@@ -577,8 +577,8 @@ body {
         .map {
             content: "";
             display: block;
-            height: 50vh;
-            background: #d3d2d1 url(../images/sale-map1@2x.png) 50% 0 no-repeat;
+            height: 52vh;
+            background: #d3d2d1 url(../images/sale-map1@2x.png) 50% 50% no-repeat;
             background-size: cover;
         }
     }
@@ -980,6 +980,46 @@ body {
     background: url(../../../../images/bg-loading.png) 50% no-repeat;
     animation: loadTurn 5s linear infinite both;
 }
+.loadingoverlay_element {
+    position: absolute;
+    bottom: 17%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+@keyframes loadTurn {
+    0% {
+        transform: rotate(0);
+    }
+    100% {
+        transform: rotate(365deg);
+    }
+}
+
+// loading
+.loading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 100px;
+    height: 100px;
+    font-size: 13px;
+    font-family: "Noto Sans KR", "AppleGothic", "Malgun Gothic", "맑은 고딕", "돋음", "Dotum", sans-serif;
+    text-align: center;
+    color: #fff;
+
+    &::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background: url(../../../../images/bg-loading.png) 50% no-repeat;
+        animation: loadTurn 5s linear infinite both;
+    }
+}
+
 .loadingoverlay_element {
     position: absolute;
     bottom: 17%;
