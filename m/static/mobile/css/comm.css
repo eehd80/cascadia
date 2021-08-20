@@ -963,8 +963,8 @@ body {
 .wrap_global_map .global_inner .map {
   content: "";
   display: block;
-  height: 50vh;
-  background: #d3d2d1 url(../images/sale-map1@2x.png) 50% 0 no-repeat;
+  height: 52vh;
+  background: #d3d2d1 url(../images/sale-map1@2x.png) 50% no-repeat;
   background-size: cover;
 }
 
