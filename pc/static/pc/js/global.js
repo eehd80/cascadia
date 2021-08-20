@@ -280,7 +280,7 @@ var globalUi = {
             autoplayStopOnLast: true,
             speed: speed,
             effect: "fade",
-            // autoplay: autoSpeed,
+            autoplay: autoSpeed,
             loop: false,
             mousewheelSensitivity: 0,
             mousewheelReleaseOnEdges: true,

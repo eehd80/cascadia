@@ -301,8 +301,8 @@ body.fixed {
 .header {
   position: absolute;
   top: 66px;
-  left: 4.5%;
-  right: 3.5%;
+  left: 100px;
+  right: 100px;
 }
 
 .header .inner {
@@ -443,7 +443,7 @@ body.fixed {
           align-items: flex-end;
   width: 100%;
   height: 100vh;
-  padding: 20vh 4.5% 3vh 0;
+  padding: 150px 100px 60px 0;
   background-color: #312013;
   opacity: 0;
   -webkit-transition: left 0.3s, opacity 0.3s;
@@ -509,18 +509,12 @@ body.fixed {
 #gnb .box_indicator > ul > li a {
   display: block;
   width: 260px;
-  height: 5vh;
+  height: 40px;
   padding: 0 20px;
-  font-size: 30px;
+  font-size: 35px;
   font-family: "Noto Serif KR";
   color: #aa9d90;
-  line-height: 5vh;
-  -webkit-transition: -webkit-transform 0.5s;
-  transition: -webkit-transform 0.5s;
-  transition: transform 0.5s;
-  transition: transform 0.5s, -webkit-transform 0.5s;
-  -webkit-transform-origin: 100% 50%;
-          transform-origin: 100% 50%;
+  line-height: 35px;
 }
 
 #gnb .box_indicator .nav-depth2 {
@@ -572,7 +566,7 @@ body.fixed {
 }
 
 #gnb .foot-goto {
-  margin-top: 20px;
+  margin: 20px 0;
 }
 
 #gnb .foot-goto ul {
@@ -598,10 +592,7 @@ body.fixed {
 }
 
 #gnb .foot-copyright {
-  position: absolute;
-  bottom: 60px;
-  right: 4.5%;
-  z-index: 100;
+  margin-top: auto;
   color: #aa9d90;
   text-align: right;
   font-size: 14px;
@@ -623,7 +614,7 @@ body.fixed {
 #gnb .foot-reserve {
   position: absolute;
   bottom: 60px;
-  left: 90px;
+  left: 100px;
   padding-left: 20px;
   color: #efe2d3;
 }
@@ -873,7 +864,7 @@ body.fixed {
           align-items: flex-end;
   position: absolute;
   top: 50%;
-  left: 15%;
+  left: 385px;
   z-index: 100;
   -webkit-transform: translateY(-70%);
           transform: translateY(-70%);
@@ -1002,7 +993,7 @@ body.fixed {
 .box_global_view .swiper-txt-sub {
   position: absolute;
   top: 50%;
-  left: 15%;
+  left: 385px;
   -webkit-transform: translateY(-20%);
           transform: translateY(-20%);
   text-align: left;
@@ -1024,10 +1015,6 @@ body.fixed {
 }
 
 /*분양안내*/
-.wrap_global05 .logo a {
-  background: url(../images/logo-b.svg) 0 0 no-repeat;
-}
-
 .box_view05 {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1263,7 +1250,7 @@ body.fixed {
 .box_indicator {
   overflow: visible;
   position: fixed;
-  right: 4%;
+  right: 100px;
   top: 50%;
   font-family: "Noto Serif KR";
   font-size: 18px;

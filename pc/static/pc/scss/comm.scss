@@ -46,8 +46,8 @@ body.fixed {
 .header {
     position: absolute;
     top: 66px;
-    left: 4.5%;
-    right: 3.5%;
+    left: 100px;
+    right: 100px;
     .inner {
         overflow: hidden;
         min-width: 0;
@@ -159,7 +159,7 @@ body.fixed {
     align-items: flex-end;
     width: 100%;
     height: 100vh;
-    padding: 20vh 4.5% 3vh 0;
+    padding: 150px 100px 60px 0;
     background-color: $prim;
     opacity: 0;
     transition: left 0.3s, opacity 0.3s;
@@ -219,14 +219,12 @@ body.fixed {
             a {
                 display: block;
                 width: 260px;
-                height: $indi-h;
+                height: 40px;
                 padding: 0 20px;
-                font-size: 30px;
+                font-size: 35px;
                 font-family: $font-serif;
                 color: #aa9d90;
-                line-height: $indi-h;
-                transition: transform 0.5s;
-                transform-origin: 100% 50%;
+                line-height: 35px;
             }
         }
 
@@ -268,7 +266,7 @@ body.fixed {
         // top: 629px;
         // right: 39px;
         // z-index: 100;
-        margin-top: 20px;
+        margin: 20px 0;
         ul {
             display: flex;
         }
@@ -288,11 +286,7 @@ body.fixed {
         }
     }
     .foot-copyright {
-        position: absolute;
-        bottom: 60px;
-        right: 4.5%;
-        z-index: 100;
-        // margin-top: auto;
+        margin-top: auto;
         color: #aa9d90;
         text-align: right;
         font-size: 14px;
@@ -311,7 +305,7 @@ body.fixed {
     .foot-reserve {
         position: absolute;
         bottom: 60px;
-        left: 90px;
+        left: 100px;
         padding-left: 20px;
         color: #efe2d3;
         &::before {
@@ -571,7 +565,7 @@ body.fixed {
         align-items: flex-end;
         position: absolute;
         top: 50%;
-        left: 15%;
+        left: 385px;
         z-index: 100;
         transform: translateY(-70%);
         transform-origin: 0 50%;
@@ -686,7 +680,7 @@ body.fixed {
     .swiper-txt-sub {
         position: absolute;
         top: 50%;
-        left: 15%;
+        left: 385px;
         transform: translateY(-20%);
         text-align: left;
         font-size: 23px;
@@ -706,13 +700,6 @@ body.fixed {
 }
 
 /*분양안내*/
-.wrap_global05 {
-    .logo {
-        a {
-            background: url(../images/logo-b.svg) 0 0 no-repeat;
-        }
-    }
-}
 .box_view05 {
     display: flex;
     // align-items: center;
@@ -932,7 +919,7 @@ body.fixed {
 .box_indicator {
     overflow: visible;
     position: fixed;
-    right: 4%;
+    right: 100px;
     top: 50%;
     font-family: $font-serif;
     font-size: 18px;

@@ -332,14 +332,10 @@ body {
 
 .global_header {
   position: fixed;
-  top: 0;
+  top: 5vh;
   left: 0;
-  z-index: 10;
+  z-index: 100;
   width: 100%;
-}
-
-.global_header .inner {
-  padding: 5vh 8% 0;
 }
 
 .global_header .header_info {
@@ -426,7 +422,6 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin: -2px auto 0;
   cursor: pointer;
   border-radius: 27px;
   color: #fff;
@@ -510,7 +505,7 @@ body {
           align-items: flex-end;
   width: 101%;
   height: calc(var(--vh, 1vh) * 100);
-  padding: 13vh 7vw 0 0;
+  padding: 13vh 34px 2vh 0;
   opacity: 0;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
@@ -645,7 +640,6 @@ body {
 
 #gnb .foot-goto li {
   margin-bottom: 5px;
-  padding: 0 4px;
 }
 
 #gnb .foot-goto a {
@@ -653,8 +647,9 @@ body {
   height: 27px;
   border: 1px solid rgba(255, 255, 255, 0.22);
   border-radius: 3.5px;
-  color: #fff;
+  color: #aa9d90;
   font-size: 0.719em;
+  font-family: "Noto Serif KR";
   line-height: 25px;
   text-align: center;
 }
@@ -676,8 +671,9 @@ body {
 }
 
 #gnb .foot-reserve {
+  position: relative;
   margin-top: auto;
-  padding-right: 17px;
+  padding-right: 15px;
   color: #efe2d3;
   text-align: right;
 }
@@ -689,7 +685,7 @@ body {
   bottom: 0;
   right: 0;
   width: 1px;
-  background: #efe2d3;
+  background: #aa9d90;
 }
 
 #gnb .foot-reserve em {
@@ -718,7 +714,7 @@ body {
           transform: translateX(-50%);
   position: fixed;
   bottom: 3.5vh;
-  z-index: 100;
+  z-index: 10;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -968,9 +964,9 @@ body {
 .wrap_global_map .global_inner .map {
   content: "";
   display: block;
-  height: 53vh;
-  background: #d3d2d1 url(../images/sale-map1@2x.png) 50% 100% no-repeat;
-  background-size: contain;
+  height: 50vh;
+  background: #d3d2d1 url(../images/sale-map1@2x.png) 50% 0 no-repeat;
+  background-size: cover;
 }
 
 .wrap_global_map .map-txt {
