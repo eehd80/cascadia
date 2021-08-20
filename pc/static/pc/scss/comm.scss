@@ -202,8 +202,6 @@ body.fixed {
 
     .box_indicator {
         position: static;
-        // top: 150px;
-        // right: 42px;
         padding-right: 0;
         transform: translateY(0);
         opacity: 1;
@@ -221,10 +219,10 @@ body.fixed {
                 width: 260px;
                 height: 40px;
                 padding: 0 20px;
-                font-size: 35px;
+                font-size: 30px;
                 font-family: $font-serif;
                 color: #aa9d90;
-                line-height: 35px;
+                line-height: 30px;
             }
         }
 
@@ -358,8 +356,8 @@ body.fixed {
 
 .footer {
     position: absolute;
-    right: 4.5%;
-    bottom: 38px;
+    right: 100px;
+    bottom: 40px;
 
     .copyright {
         text-align: right;

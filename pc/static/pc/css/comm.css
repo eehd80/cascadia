@@ -511,10 +511,10 @@ body.fixed {
   width: 260px;
   height: 40px;
   padding: 0 20px;
-  font-size: 35px;
+  font-size: 30px;
   font-family: "Noto Serif KR";
   color: #aa9d90;
-  line-height: 35px;
+  line-height: 30px;
 }
 
 #gnb .box_indicator .nav-depth2 {
@@ -670,8 +670,8 @@ body.fixed {
 
 .footer {
   position: absolute;
-  right: 4.5%;
-  bottom: 38px;
+  right: 100px;
+  bottom: 40px;
 }
 
 .footer .copyright {
