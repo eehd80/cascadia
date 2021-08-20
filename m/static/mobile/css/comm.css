@@ -505,7 +505,7 @@ body {
           align-items: flex-end;
   width: 101%;
   height: calc(var(--vh, 1vh) * 100);
-  padding: 13vh 34px 2vh 0;
+  padding: 15vh 34px 2vh 0;
   opacity: 0;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
@@ -533,7 +533,7 @@ body {
   -webkit-box-align: end;
       -ms-flex-align: end;
           align-items: flex-end;
-  margin: 2.5vh 0;
+  margin-bottom: 2vh;
 }
 
 #gnb .box_indicator > ul > li > a,
