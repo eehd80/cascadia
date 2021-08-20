@@ -650,22 +650,7 @@ body.fixed {
 
 .container {
   position: relative;
-  padding-bottom: 120px;
   z-index: 0;
-}
-
-.container .content {
-  position: relative;
-  padding-bottom: 120px;
-  background: #fff;
-}
-
-.container.type02 {
-  padding-bottom: 0;
-}
-
-.container.type02 .content {
-  padding-bottom: 0;
 }
 
 .footer {
