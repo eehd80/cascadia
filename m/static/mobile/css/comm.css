@@ -964,7 +964,7 @@ body {
   content: "";
   display: block;
   overflow: hidden;
-  height: 50vh;
+  height: 45vh;
 }
 
 .wrap_global_map .global_inner .map img {
