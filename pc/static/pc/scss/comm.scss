@@ -144,6 +144,7 @@ body.fixed {
         }
 
         ~ #gnb {
+            display: flex;
             opacity: 1;
             left: 0;
         }
@@ -154,7 +155,7 @@ body.fixed {
     top: 0;
     left: 100%;
     z-index: 1;
-    display: flex;
+    display: none;
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-end;
@@ -1290,4 +1291,76 @@ body.fixed {
     100% {
         transform: rotate(365deg);
     }
+}
+
+/*swiper*/
+.swiper-wrapper,
+.swiper-container-horizontal .detail_img_list {
+    position: relative;
+    width: 100%;
+    height: auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-transition-property: -webkit-transform;
+    transition-property: -webkit-transform;
+    transition-property: transform;
+    transition-property: transform, -webkit-transform;
+    -webkit-box-sizing: content-box;
+    box-sizing: content-box;
+}
+
+.swiper-container-android .swiper-slide,
+.swiper-wrapper,
+.swiper-container-horizontal .detail_img_list {
+    -webkit-transform: translate3d(0px, 0, 0);
+    transform: translate3d(0px, 0, 0);
+}
+
+.swiper-slide,
+.swiper-container-horizontal .detail_img {
+    -webkit-flex-shrink: 0;
+    -ms-flex: 0 0 auto;
+    -ms-flex-negative: 0;
+    flex-shrink: 0;
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.swiper-container-fade {
+    .swiper-slide,
+    .detail_img {
+        pointer-events: none;
+        -webkit-transition-property: opacity;
+        transition-property: opacity;
+    }
+}
+
+.swiper-pagination {
+    position: absolute;
+    text-align: center;
+    -webkit-transition: 300ms;
+    transition: 300ms;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+    z-index: 2;
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+    position: absolute;
+    top: 50%;
+    width: 27px;
+    height: 44px;
+    margin-top: -22px;
+    z-index: 3;
+    cursor: pointer;
+    background-size: 27px 44px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.swiper-pagination-bullet {
+    cursor: pointer;
 }
